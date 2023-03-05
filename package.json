@@ -4,13 +4,16 @@
     "mongoose": "^7.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/userSeed.js"
   },
   "name": "thoughtsup",
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbxamora/ThoughtsUp.git"
