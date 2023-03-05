@@ -23,6 +23,12 @@ const thoughts = [
   { thoughtText: "Thought 2", username: "user2", reactions: [] },
 ];
 
+const reactions = [
+  { reactionBody: "Reaction 1", username: "user1" },
+  { reactionBody: "Reaction 2", username: "user2" },
+  { reactionBody: "Reaction 3", username: "user1" },
+];
+
 // Create a function to seed the data
 const seedData = async () => {
   try {
@@ -41,7 +47,17 @@ const seedData = async () => {
         (user) => user.username === thought.username
       );
       user.thoughts.push(thought._id);
+
+      // Associate reactions with the thoughts
+      for (let j = 0; j < reactions.length; j++) {
+        const reaction = reactions[j];
+        if (reaction.username === user.username) {
+          thought.reactions.push(reaction);
+        }
+      }
+
       await user.save();
+      await thought.save();
     }
 
     console.log("Data seeding successful!");
