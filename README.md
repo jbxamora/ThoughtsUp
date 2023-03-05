@@ -1,5 +1,7 @@
 # ThoughtsUp
+
 ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. It’s a great solution for social media startups as it offers flexibility in terms of data structure and handles large amounts of data effectively. It also offers API GET, POST, PUT, and DELETE routes to enable users to interact with the database, and the Mongoose ODM is used for database modeling. ThoughtsUp is perfect for developers looking to build social network APIs and require scalability and flexibility in their data structure.
+
 ## User Story
 
 ```md
@@ -53,14 +55,16 @@ To install and run on your local machine, follow these steps:
 ## Code Snippets
 
 ### Date Formatting
-This code exports a function that takes in a timestamp and an options object with properties monthLength and dateSuffix. 
+
+This code exports a function that takes in a timestamp and an options object with properties monthLength and dateSuffix.
 The function formats the timestamp into a readable string format using the options provided.
 
- If the monthLength is set to `short`, the abbreviated month name is used in the format, otherwise the full month name is used. 
+If the monthLength is set to `short`, the abbreviated month name is used in the format, otherwise the full month name is used.
 
 If `dateSuffix` is true, the day of the month is appended with a suffix like `st`, `nd`, `rd`, or `th`.
 
- The function first creates an object of month names based on the `monthLength` option provided, then creates a new `Date` object from the timestamp, and finally formats the date into a string using string concatenation.
+The function first creates an object of month names based on the `monthLength` option provided, then creates a new `Date` object from the timestamp, and finally formats the date into a string using string concatenation.
+
 ```js
 // Function to format a timestamp
 module.exports = (
@@ -141,20 +145,18 @@ module.exports = (
 
   return formattedTimeStamp;
 };
-
 ```
 
 ### Seeds
-This is an asynchronous function in JavaScript that is responsible for seeding the MongoDB database with data. 
 
-The function first removes any existing data for the `Thoughts` and `User` models using the Mongoose's `deleteMany()` method. 
-It then creates new data for these models using the Mongoose's `create()` method with the data defined in the thoughts and users arrays. 
+This is an asynchronous function in JavaScript that is responsible for seeding the MongoDB database with data.
+
+The function first removes any existing data for the `Thoughts` and `User` models using the Mongoose's `deleteMany()` method.
+It then creates new data for these models using the Mongoose's `create()` method with the data defined in the thoughts and users arrays.
 
 After creating the new data, the function associates the thoughts with the users by iterating through the `createdThoughts` array and finding the user with the matching username.
 
 It pushes the `thought._id` into the user's thoughts array and saves the user. Finally, the function logs a success message to the console and disconnects from the database.
-
-
 
 ```js
 const seedData = async () => {
@@ -220,6 +222,6 @@ SOFTWARE.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. If the issue goes unresolved for more than a week feel free to contact me at any of the links listed below. Be sure to add me on LinkedIn and Follow me on GitHub to view my course progression. 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. If the issue goes unresolved for more than a week feel free to contact me at any of the links listed below. Be sure to add me on LinkedIn and Follow me on GitHub to view my course progression.
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jbxamora) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jorge-zamora-786945250//) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/jbxamora/) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/20023706/jbxamora)
