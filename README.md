@@ -51,14 +51,24 @@ To install and run on your local machine, follow these steps:
 ## Demo
 
 ### GET ALL Routes - Users/Thoughts
+![Alt Text](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/GETALLROUTES-18.gif)
+
 
 ### GET ONE Routes -Users/Thoughts
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ### POST, PUT, DELETE Routes - User
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ### POST/DELETE Routes - Friends
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ### POST/DELETE Routes - Reactions
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ## Code Snippets
 
