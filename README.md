@@ -56,11 +56,19 @@ To install and run on your local machine, follow these steps:
 ![GET ONE Routes -Users/Thoughts](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/GETONEROUTES-18.gif)
 ### POST, PUT, DELETE Routes - Thoughts
 
+
+https://user-images.githubusercontent.com/113067058/222951149-d9bc38a3-f2fd-43b2-88c8-6284ad1409df.mov
+
+
 ### POST, PUT, DELETE Routes - User
 ![POST, PUT, DELETE Routes - User](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/PPDROUTES-18.gif)
 ### POST/DELETE Routes - Friends
 ![POST/DELETE Routes - Friends](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/PDFRIENDROUTES-18.gif)
 ### POST/DELETE Routes - Reactions
+
+
+https://user-images.githubusercontent.com/113067058/222951154-bfb5239a-3a7e-4b74-bd50-54380fa4fa35.mov
+
 
 ## Code Snippets
 
