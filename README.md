@@ -34,7 +34,11 @@ To install and run on your local machine, follow these steps:
 
 **Install the necessary dependencies**
 
-`npm i`
+`npm init -y`
+
+`npm i express`
+
+`npm i mongoose`
 
 **Seed The Database**
 
@@ -46,11 +50,15 @@ To install and run on your local machine, follow these steps:
 
 ## Demo
 
-### User Routes
+### GET ALL Routes - Users/Thoughts
 
-### Thought Routes
+### GET ONE Routes -Users/Thoughts
 
-### Reaction Routes
+### POST, PUT, DELETE Routes - User
+
+### POST/DELETE Routes - Friends
+
+### POST/DELETE Routes - Reactions
 
 ## Code Snippets
 
