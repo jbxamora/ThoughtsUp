@@ -51,24 +51,16 @@ To install and run on your local machine, follow these steps:
 ## Demo
 
 ### GET ALL Routes - Users/Thoughts
-![Alt Text](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/GETALLROUTES-18.gif)
-
-
+![GET ALL Routes - Users/Thoughts](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/GETALLROUTES-18.gif)
 ### GET ONE Routes -Users/Thoughts
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
+![GET ONE Routes -Users/Thoughts](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/GETONEROUTES-18.gif)
+### POST, PUT, DELETE Routes - Thoughts
 
 ### POST, PUT, DELETE Routes - User
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
-
+![POST, PUT, DELETE Routes - User](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 ### POST/DELETE Routes - Friends
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
-
+![POST/DELETE Routes - Friends](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/PDFRIENDROUTES-18.gif)
 ### POST/DELETE Routes - Reactions
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
 
 ## Code Snippets
 
