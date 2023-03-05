@@ -57,7 +57,7 @@ To install and run on your local machine, follow these steps:
 ### POST, PUT, DELETE Routes - Thoughts
 
 ### POST, PUT, DELETE Routes - User
-![POST, PUT, DELETE Routes - User](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![POST, PUT, DELETE Routes - User](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/PPDROUTES-18.gif)
 ### POST/DELETE Routes - Friends
 ![POST/DELETE Routes - Friends](https://github.com/jbxamora/ThoughtsUp/blob/main/assets/PDFRIENDROUTES-18.gif)
 ### POST/DELETE Routes - Reactions
